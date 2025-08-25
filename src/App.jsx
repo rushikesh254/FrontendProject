@@ -7,6 +7,7 @@ import Contact from "./Pages/Contact";
 import Hosting from "./Pages/Hosting";
 import Domain from "./Pages/Domain";
 import Auth from "./Pages/Auth";
+import Hero from "./components/Hero";
 
 import Navbar from "./components/Navbar";
 
@@ -14,6 +15,7 @@ function App() {
 	return (
 		<div>
 			<Navbar />
+			<Hero />
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/about" element={<About />} />
